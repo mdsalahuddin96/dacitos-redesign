@@ -6,6 +6,7 @@ import WhyChooseUs from '@/components/WhyChoseUs';
 import TechStack from '@/components/TechStack';
 import Testimonials from '@/components/Testimonials';
 import CTA from '@/components/CTA';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <TechStack/>
       <Testimonials/>
       <CTA/>
+      <Footer/>
     </main>
   );
 }
