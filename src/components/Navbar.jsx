@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#home", active: true },
+    { name: "Home", href: "/", active: true },
     { name: "About", href: "#about" },
     { name: "Portfolio", href: "#portfolio" },
     { name: "Services", href: "#services", hasDropdown: true },
@@ -48,7 +48,7 @@ export default function Navbar() {
         {/* DESKTOP LINKS */}
         <div className="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-300">
           <a
-            href="#home"
+            href={'/'}
             className="text-cyan-400 font-semibold transition-colors"
           >
             Home
